@@ -6,6 +6,14 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.contaneir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
 #imagem {
   background-image: url(../img/forca.png);
   width: 234px;
