@@ -1,3 +1,14 @@
+body {
+  width: 100vw;
+  height: 90vw;
+  margin-top: 10px;
+  background: goldenrod;
+  font-family: 'Inter', sans-serif;
+}
+
 #imagem {
   background-image: url(../img/forca.png);
+  width: 234px;
+  height: 272px;
+  background-repeat: no-repeat;
 }
