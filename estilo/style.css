@@ -58,3 +58,10 @@ body {
 .teclas button:hover{
   transform: scale(1.3);
 }
+
+#categoria {
+  margin-top: 30px;
+  color: purple;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
