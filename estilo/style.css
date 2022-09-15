@@ -20,3 +20,26 @@ body {
   height: 272px;
   background-repeat: no-repeat;
 }
+
+#palavra-secreta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  margin-top: 30px;
+}
+
+.letras {
+  width: 16px;
+  text-align: center;
+  border-bottom: 2px solid #80008b;
+  color; white;
+  padding: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+#teclado {
+  margin-top: 30px;
+}
