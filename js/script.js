@@ -1,82 +1,84 @@
+let palavraSecretaCategoria;
+let palavraSecretaSorteada;
 const palavras = [
   palavra001 = {
-    nome = 'IRLANDA',
-    categoria = 'LUGARES'
+    nome: 'IRLANDA',
+    categoria: 'LUGARES'
   },
   palavra002 = {
-    nome = 'VENEZUELA',
-    categoria = 'LUGARES'
+    nome: 'VENEZUELA',
+    categoria: 'LUGARES'
   },
   palavra003 = {
-    nome = 'BRASIL',
-    categoria = 'LUGARES'
+    nome: 'BRASIL',
+    categoria: 'LUGARES'
   },
   palavra004 = {
-    nome = 'ARGENTINA',
-    categoria = 'LUGARES'
+    nome: 'ARGENTINA',
+    categoria: 'LUGARES'
   },
   palavra005 = {
-    nome = 'RUSSIA',
-    categoria = 'LUGARES'
+    nome: 'RUSSIA',
+    categoria: 'LUGARES'
   },
   palavra006 = {
-    nome = 'CANADA',
-    categoria = 'LUGARES'
+    nome: 'CANADA',
+    categoria: 'LUGARES'
   },
   palavra007 = {
-    nome = 'LASANHA',
-    categoria = 'COMIDA'
+    nome: 'LASANHA',
+    categoria: 'COMIDA'
   },
   palavra008 = {
-    nome = 'FRANGO',
-    categoria = 'COMIDA'
+    nome: 'FRANGO',
+    categoria: 'COMIDA'
   },
   palavra009 = {
-    nome = 'CHURRASCO',
-    categoria = 'COMIDA'
+    nome: 'CHURRASCO',
+    categoria: 'COMIDA'
   },
   palavra010 = {
-    nome = 'ARROZ',
-    categoria = 'COMIDA'
+    nome: 'ARROZ',
+    categoria: 'COMIDA'
   },
   palavra011 = {
-    nome = 'SALADA',
-    categoria = 'COMIDA'
+    nome: 'SALADA',
+    categoria: 'COMIDA'
   },
   palavra012 = {
-    nome = 'PIZZA',
-    categoria = 'COMIDA'
-  },
-  palavra012 = {
-    nome = 'PIZZA',
-    categoria = 'COMIDA'
+    nome: 'PIZZA',
+    categoria: 'COMIDA'
   },
   palavra013 = {
-    nome = 'NAVIO',
-    categoria = 'TRANSPORTE'
+    nome: 'NAVIO',
+    categoria: 'TRANSPORTE'
   },
   palavra014 = {
-    nome = 'CARRO',
-    categoria = 'TRANSPORTE'
+    nome: 'CARRO',
+    categoria: 'TRANSPORTE'
   },
   palavra015 = {
-    nome = 'BICICLETA',
-    categoria = 'TRANSPORTE'
+    nome: 'BICICLETA',
+    categoria: 'TRANSPORTE'
   },
   palavra016 = {
-    nome = 'ONIBUS',
-    categoria = 'TRANSPORTE'
+    nome: 'ONIBUS',
+    categoria: 'TRANSPORTE'
   },
   palavra017 = {
-    nome = 'AVIAO',
-    categoria = 'TRANSPORTE'
+    nome: 'AVIAO',
+    categoria: 'TRANSPORTE'
   },
   palavra018 = {
-    nome = 'MOTO',
-    categoria = 'TRANSPORTE'
+    nome: 'MOTO',
+    categoria: 'TRANSPORTE'
   }
 ];
 
-function criarPalavraSecreta{
-  
+
+function criarPalavraSecreta(){
+  const indexPalavra = parseInt(Math.random() * palavras.length)
+
+  palavraSecretaSorteada = palavras[indexPalavra].nome;
+  palavraSecretaCategoria = palavras[indexPalavra].categoria;
 }
