@@ -102,3 +102,12 @@ function montarPalavraNaTela(){
     }
   }
 }
+
+function verificaLetraEscolhida(letra){
+  modificaStyleLetra('tecla-' + letra);
+}
+
+function modificaStyleLetra(tecla){
+  document.getElementById(tecla).style.background = 'purple';
+  document.getElementById(tecla).style.color = '#ffffff';
+}
