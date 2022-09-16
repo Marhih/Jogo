@@ -55,6 +55,9 @@ body {
   border: 1px solid gray;
   color: black;
 }
+.teclas button:disabled{
+  cursor: not-allowed;
+}
 .teclas button:hover{
   transform: scale(1.3);
 }
