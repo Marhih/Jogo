@@ -142,7 +142,7 @@ function comparaLista(letra){
     tentativas--
     carregaImagemForca();
 
-    if (tentativas == 0) {
+    if (tentativas < 0) {
       alert('Você perdeu!!! A palavra era ' + palavraSecretaSorteada)
     }
   }else {
